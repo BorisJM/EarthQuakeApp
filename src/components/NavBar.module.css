@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  z-index: 1000;
+}
+
+.logoContainer span {
+  color: #ececec;
+  font-size: 1.5rem;
+}
+
+.logo {
+  opacity: 0.6;
+  width: 96px;
+}
+
+.about {
+  color: #ececec;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+.about:hover {
+  color: #00c46a;
+}

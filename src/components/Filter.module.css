@@ -1,0 +1,14 @@
+.selectContainer {
+  margin-top: 1.5rem;
+}
+
+.select {
+  width: 15rem;
+  color: #42484d;
+}
+
+.selectPlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

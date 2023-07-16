@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #2d3439;
+}
+
+.logoContainer {
+  background-color: #2d3439;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  gap: 1rem;
+  z-index: 1000;
+}
+
+.logoContainer div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoContainer span {
+  color: #ececec;
+  font-size: 1.5rem;
+}
+
+.logo {
+  opacity: 0.6;
+  width: 96px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  gap: 1.5rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.intro p {
+  font-size: 1.25rem;
+}

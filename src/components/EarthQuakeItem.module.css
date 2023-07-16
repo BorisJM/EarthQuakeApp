@@ -1,0 +1,54 @@
+.item {
+  box-shadow: 0 0 4px 0 #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #42484d;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.link,
+.link:hover {
+  color: #ececec;
+}
+
+.item.active {
+  background-color: #00c46a;
+}
+
+.item.active .coords {
+  color: #ececec;
+}
+
+.item:hover {
+  background-color: #00c46a;
+  cursor: pointer;
+}
+
+.item:hover > .mag,
+.item:hover > .coords {
+  color: #ececec;
+}
+
+.mag {
+  transition: all 0.3s;
+  color: #ffb545;
+  font-weight: 700;
+}
+
+.mag.magRed {
+  color: #ef4444;
+}
+
+.coords {
+  transition: all 0.3s;
+  color: #00c46a;
+  font-weight: 700;
+}
+
+.place {
+  font-weight: 500;
+  font-size: 0.9rem;
+}

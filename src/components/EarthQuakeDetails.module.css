@@ -1,0 +1,41 @@
+.container {
+  background-color: #2d3439;
+  position: fixed;
+  bottom: 1%;
+  width: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem 1rem;
+  border-radius: 7px;
+  box-shadow: 0 0 5px 0 #ececec;
+}
+
+.title {
+  line-height: 1.2;
+}
+
+.location,
+.depth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location span,
+.depth span {
+  font-size: 1.25rem;
+}
+
+.btnClose {
+  align-self: flex-end;
+  background-color: #00c46a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.btnClose:hover {
+  background-color: #ececec;
+  color: #00c46a;
+}
